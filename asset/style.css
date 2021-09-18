@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+.app {
+        /* background-color: #fff; */
+        width: 100%;
+}
+
+#header {
+        height: 166px;
+        width: 100%;
+        background-color: #fff;
+}
+
+.header-logo {
+   background: url(../images/logodt.PNG) no-repeat;
+  
+   width: 100%;
+   height: 110px;
+}
+
+.header-nav {
+    height: 60px;
+}
+
+.header-nav-list {
+    height: 60px;
+    display: flex;
+    background-color: #979034;
+    list-style: none;
+}
+
+.header-nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    line-height: 66px;
+    display: block;
+    padding: 0 6px;
+    margin: 0 6px;
+    font-weight: bolder;
+}
+
+.header-nav-mb {
+    display: none;
+}
+
+.header-nav-link:hover {
+    color: yellow;
+}
+
+.containers {
+    margin: 0 30px;
+}
+#body {
+    margin-top: 30px;
+}
+
+#body-gt {
+        width: 100%;
+}
+.body-gt-text {
+    line-height: 1.4;
+    margin: 8px;
+} 
+.body-gt-text  > p {
+    font-size: 18px;
+}
+
+.body-gt-1 {
+    background-color: #f5f5f5;
+}
+
+.btn-gt {
+    padding: 4px 16px;
+    font-size: 18px;
+    background-color: #ccc;
+    margin-left: 40px;
+    margin-bottom: 12px;
+    color: #979034;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.body-gt-item > p {
+        color: #333;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 4px 0;
+}
+
+.body-gt-3 {
+    margin: 30px 0;
+}
+
+.body-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+.body-gt-items {
+    margin-top: 12px;
+} 
+
+.body-title {
+    margin-left: 30px;
+    color: #979034;
+    margin-bottom: 18px;
+}
+
+.body-đs-items {
+    display: flex;
+}
+
+
+.body-đs-items > div {
+    margin-right: 24px;
+}
+
+.body-pt-1 {
+    background-color: #f5f5f5;
+    padding: 15px;
+} 
+
+#body-pt {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.body-qh-1 {
+    padding: 6px 12px;
+    /* height: 216px; */
+    background-color: #f5f5f5;
+}
+
+#footer {
+    height: 200px;
+    margin-top: 30px;
+    background-color: #979034;
+    padding-top: 50px;
+} 
+
+.footer-text > p {
+    font-size: 16px;
+    margin: 0;
+}
+.taskbar {
+    display: none;
+}
+
+.clear {
+    clear: both;
+}
+a  {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover{
+    color: #333;
+}
+
